@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: SpringAI-chat-memory
+
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/springai
+#    username: root
+#    password: Password
+
+  ai:
+    openai:
+      api-key: {OPENAI_API_KEY}
+
+#    chat:
+#      memory:
+#        repository:
+#          jdbc:
+#            initialize-schema: ALWAYS
+
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
+
+server:
+  port: 9292
