@@ -58,36 +58,21 @@ This repository demonstrates practical implementations for Large Language Models
 SpringAIExplore/
 ├── docker/
 │   ├── docker-compose.yml          # PostgreSQL + PGVector & Ollama services
-
 │   └── init.sql                    # Postgres vector extension initialization
-
 ├── src/
-
 │   ├── main/
-
 │   │   ├── java/com/example/springai/
-
 │   │   │   ├── config/             # Spring AI Beans, VectorStore & Model Configs
-
 │   │   │   ├── controller/         # REST & Streaming Endpoints (Chat, RAG, Tools)
-
 │   │   │   ├── dto/                # Strongly-typed Records for Requests/Responses
-
 │   │   │   ├── functions/          # Spring @Bean Functions for LLM Tool Calling
-
 │   │   │   ├── service/            # Core AI Orchestration & Vector Ingestion
-
 │   │   │   └── SpringAiApplication.java
-
 │   │   └── resources/
 │   │       ├── application.yml     # Application properties & AI model keys
-
 │   │       ├── documents/          # Knowledge base files for RAG pipelines
-
 │   │       └── prompts/            # External StringTemplate (.st) prompts
-
 ├── pom.xml
-
 └── README.md
 
 ```
