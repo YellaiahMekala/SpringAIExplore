@@ -5,12 +5,7 @@ You can copy and paste the markdown block directly into the `README.md` file at 
 ---
 
 ```markdown
-# 🚀 Spring AI Explore (`SpringAIExplore`)
 
-[![Java](https://img.shields.io/badge/Java-17%2B%20%7C%2021%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3%2B-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
-[![Spring AI](https://img.shields.io/badge/Spring%20AI-1.0.0--M1-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-ai)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 A hands-on, production-grade exploration and architectural showcase for enterprise AI application development using **Spring AI**, **Spring Boot 3**, and modern Generative AI design patterns.
 
@@ -63,21 +58,36 @@ This repository demonstrates practical implementations for Large Language Models
 SpringAIExplore/
 ├── docker/
 │   ├── docker-compose.yml          # PostgreSQL + PGVector & Ollama services
+
 │   └── init.sql                    # Postgres vector extension initialization
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/com/example/springai/
+
 │   │   │   ├── config/             # Spring AI Beans, VectorStore & Model Configs
+
 │   │   │   ├── controller/         # REST & Streaming Endpoints (Chat, RAG, Tools)
+
 │   │   │   ├── dto/                # Strongly-typed Records for Requests/Responses
+
 │   │   │   ├── functions/          # Spring @Bean Functions for LLM Tool Calling
+
 │   │   │   ├── service/            # Core AI Orchestration & Vector Ingestion
+
 │   │   │   └── SpringAiApplication.java
+
 │   │   └── resources/
 │   │       ├── application.yml     # Application properties & AI model keys
+
 │   │       ├── documents/          # Knowledge base files for RAG pipelines
+
 │   │       └── prompts/            # External StringTemplate (.st) prompts
+
 ├── pom.xml
+
 └── README.md
 
 ```
