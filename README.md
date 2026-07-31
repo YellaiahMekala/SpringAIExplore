@@ -53,13 +53,25 @@ This repository demonstrates practical implementations for Large Language Models
 ## 📁 Repository Structure
 
 
-```
-
-
-
-```
-
----
+SpringAIExplore/
+├── docker/
+│   ├── docker-compose.yml          # PostgreSQL + PGVector & Ollama containers
+│   └── init.sql                    # Database vector extensions setup
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/springai/
+│   │   │   ├── config/             # VectorStore, ChatClient, and Model Beans setup
+│   │   │   ├── controller/         # REST APIs for Chat, RAG, and Agent Tools
+│   │   │   ├── domain/             # Strongly typed Records / DTOs for structured output
+│   │   │   ├── functions/          # Spring @Bean Tools / Functions for LLM Agentic workflow
+│   │   │   ├── service/            # Core AI orchestrators, ingestion pipelines, & RAG logic
+│   │   │   └── SpringAiApplication.java
+│   │   └── resources/
+│   │       ├── application.yml     # Enterprise configurations & model profiles
+│   │       ├── documents/          # Knowledge base docs for ingestion
+│   │       └── prompts/            # External prompt templates (.st files)
+├── pom.xml
+└── README.md
 
 ## ⚙️ Prerequisites
 
