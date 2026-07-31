@@ -217,9 +217,11 @@ This project is open-source and available under the [MIT License](https://www.go
 
 **Yellaiah Mekala**
 
-*Java Full-Stack & AI Backend Integration Engineer*
+*Java Full-Stack & AI Backend Integration Engineer & Gen AI Platform Engineer* 
 
 * **GitHub:** [@YellaiahMekala](https://www.google.com/search?q=https://github.com/YellaiahMekala)
+* **LinkedIn:** [@YellaiahMekala](https://www.google.com/search?q=https://www.linkedin.com/in/yellaiah-mekala/)
+
 
 ```
 
