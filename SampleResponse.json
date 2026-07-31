@@ -1,0 +1,87 @@
+//2026-07-31T07:33:21.893+05:30 DEBUG 24760 --- [SpringAI-chat-memory] [nio-9292-exec-6] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='I'm Rahul', metadata={messageType=USER}, messageType=USER}, AssistantMessage [messageType=ASSISTANT, toolCalls=[], textContent=Hi Rahul � nice to meet you. How can I help you today? Would you like me to remember your name or any preferences?, metadata={role=assistant, messageType=ASSISTANT, refusal=, finishReason=STOP, annotations=[], index=0, id=chatcmpl-E7WropWil5Lm9O2LutPAhEbYum4jB, reasoningContent=}], UserMessage{content='Who am I', metadata={messageType=USER}, messageType=USER}], modelOptions=org.springframework.ai.openai.OpenAiChatOptions@1590ea70}, context={chat_memory_conversation_id=Rahu14}]
+//2026-07-31T07:33:24.144+05:30 DEBUG 24760 --- [SpringAI-chat-memory] [nio-9292-exec-6] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : response: {
+  "metadata" : {
+    "empty" : false,
+    "id" : "chatcmpl-E7Wsk6dTjBeAXeWx6GxhTt39LFOR1",
+    "model" : "gpt-5-mini-2025-08-07",
+    "promptMetadata" : [ ],
+    "rateLimit" : {
+      "requestsLimit" : 0,
+      "requestsRemaining" : 0,
+      "requestsReset" : "PT0S",
+      "tokensLimit" : 0,
+      "tokensRemaining" : 0,
+      "tokensReset" : "PT0S"
+    },
+    "usage" : {
+      "promptTokens" : 48,
+      "completionTokens" : 123,
+      "totalTokens" : 171,
+      "cacheReadInputTokens" : 0,
+      "nativeUsage" : {
+        "completion_tokens" : 123,
+        "prompt_tokens" : 48,
+        "total_tokens" : 171,
+        "completion_tokens_details" : {
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "reasoning_tokens" : 64,
+          "rejected_prediction_tokens" : 0,
+          "valid" : true
+        },
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0,
+          "valid" : true
+        },
+        "valid" : true
+      }
+    }
+  },
+  "result" : {
+    "metadata" : {
+      "contentFilters" : [ ],
+      "empty" : true,
+      "finishReason" : "STOP"
+    },
+    "output" : {
+      "media" : [ ],
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "assistant",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-E7Wsk6dTjBeAXeWx6GxhTt39LFOR1",
+        "reasoningContent" : ""
+      },
+      "text" : "You're Rahul � that's what you told me earlier. Did you mean that, or were you asking something more about your identity (e.g., bio details, role, or a philosophical question)? Would you like me to remember your name and any preferences?",
+      "toolCalls" : [ ]
+    }
+  },
+  "results" : [ {
+    "metadata" : {
+      "contentFilters" : [ ],
+      "empty" : true,
+      "finishReason" : "STOP"
+    },
+    "output" : {
+      "media" : [ ],
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "assistant",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-E7Wsk6dTjBeAXeWx6GxhTt39LFOR1",
+        "reasoningContent" : ""
+      },
+      "text" : "You're Rahul � that's what you told me earlier. Did you mean that, or were you asking something more about your identity (e.g., bio details, role, or a philosophical question)? Would you like me to remember your name and any preferences?",
+      "toolCalls" : [ ]
+    }
+  } ]
+}
