@@ -2,22 +2,35 @@ spring:
   application:
     name: SpringAI-chat-memory
 
-#  datasource:
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#    url: jdbc:mysql://localhost:3306/springai
-#    username: root
-#    password: Password
-
   ai:
     openai:
-      api-key: {OPENAI_API_KEY}
+      api-key: # Replace this with your actual OpenAI API Key string
+      chat:
+        memory:
+          repository:
+            jdbc:
+              initialize-schema: ALWAYS
 
-#    chat:
-#      memory:
-#        repository:
-#          jdbc:
-#            initialize-schema: ALWAYS
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: yell
+    password: yell123
 
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
 
 logging:
   level:

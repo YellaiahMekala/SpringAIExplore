@@ -1,0 +1,347 @@
+ {
+"empty" : false,
+"id" : "chatcmpl-E7anoJtCFBFYVRA4U4zUsJd7JJFAu",
+"model" : "gpt-5-mini-2025-08-07",
+"promptMetadata" : [ ],
+"rateLimit" : {
+"requestsLimit" : 0,
+"requestsRemaining" : 0,
+"requestsReset" : "PT0S",
+"tokensLimit" : 0,
+"tokensRemaining" : 0,
+"tokensReset" : "PT0S"
+},
+"usage" : {
+"promptTokens" : 11,
+"completionTokens" : 229,
+"totalTokens" : 240,
+"cacheReadInputTokens" : 0,
+"nativeUsage" : {
+"completion_tokens" : 229,
+"prompt_tokens" : 11,
+"total_tokens" : 240,
+"completion_tokens_details" : {
+"accepted_prediction_tokens" : 0,
+"audio_tokens" : 0,
+"reasoning_tokens" : 192,
+"rejected_prediction_tokens" : 0,
+"valid" : true
+},
+"prompt_tokens_details" : {
+"audio_tokens" : 0,
+"cached_tokens" : 0,
+"valid" : true
+},
+"valid" : true
+}
+}
+}
+
+"result" : {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7anoJtCFBFYVRA4U4zUsJd7JJFAu",
+"reasoningContent" : ""
+},
+"text" : "Nice to meet you, Mekala! How can I help you today? Would you like me to call you Mekala or something else?",
+"toolCalls" : [ ]
+}
+},
+"results" : [ {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7anoJtCFBFYVRA4U4zUsJd7JJFAu",
+"reasoningContent" : ""
+},
+"text" : "Nice to meet you, Mekala! How can I help you today? Would you like me to call you Mekala or something else?",
+"toolCalls" : [ ]
+}
+} ]
+}
+2026-07-31T11:44:47.550+05:30 DEBUG 5892 --- [SpringAI-chat-memory] [nio-9292-exec-8] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='my name is yell', metadata={messageType=USER}, messageType=USER}], modelOptions=org.springframework.ai.openai.OpenAiChatOptions@1590ea70}, context={chat_memory_conversation_id=yell61414}]
+2026-07-31T11:44:50.414+05:30 DEBUG 5892 --- [SpringAI-chat-memory] [nio-9292-exec-8] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : response: {
+"metadata" : {
+"empty" : false,
+"id" : "chatcmpl-E7ao3GgCFKwJs7WZ7TPLh1jYb1JGt",
+"model" : "gpt-5-mini-2025-08-07",
+"promptMetadata" : [ ],
+"rateLimit" : {
+"requestsLimit" : 0,
+"requestsRemaining" : 0,
+"requestsReset" : "PT0S",
+"tokensLimit" : 0,
+"tokensRemaining" : 0,
+"tokensReset" : "PT0S"
+},
+"usage" : {
+"promptTokens" : 10,
+"completionTokens" : 280,
+"totalTokens" : 290,
+"cacheReadInputTokens" : 0,
+"nativeUsage" : {
+"completion_tokens" : 280,
+"prompt_tokens" : 10,
+"total_tokens" : 290,
+"completion_tokens_details" : {
+"accepted_prediction_tokens" : 0,
+"audio_tokens" : 0,
+"reasoning_tokens" : 256,
+"rejected_prediction_tokens" : 0,
+"valid" : true
+},
+"prompt_tokens_details" : {
+"audio_tokens" : 0,
+"cached_tokens" : 0,
+"valid" : true
+},
+"valid" : true
+}
+}
+},
+"result" : {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7ao3GgCFKwJs7WZ7TPLh1jYb1JGt",
+"reasoningContent" : ""
+},
+"text" : "Nice to meet you, Yell. How can I help you today?",
+"toolCalls" : [ ]
+}
+},
+"results" : [ {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7ao3GgCFKwJs7WZ7TPLh1jYb1JGt",
+"reasoningContent" : ""
+},
+"text" : "Nice to meet you, Yell. How can I help you today?",
+"toolCalls" : [ ]
+}
+} ]
+}
+2026-07-31T11:45:11.030+05:30 DEBUG 5892 --- [SpringAI-chat-memory] [nio-9292-exec-9] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='my name is kumar', metadata={messageType=USER}, messageType=USER}], modelOptions=org.springframework.ai.openai.OpenAiChatOptions@1590ea70}, context={chat_memory_conversation_id=kumar11}]
+2026-07-31T11:45:13.708+05:30 DEBUG 5892 --- [SpringAI-chat-memory] [nio-9292-exec-9] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : response: {
+"metadata" : {
+"empty" : false,
+"id" : "chatcmpl-E7aoRZKWnrdTRIRTk88m8aC6N3sGF",
+"model" : "gpt-5-mini-2025-08-07",
+"promptMetadata" : [ ],
+"rateLimit" : {
+"requestsLimit" : 0,
+"requestsRemaining" : 0,
+"requestsReset" : "PT0S",
+"tokensLimit" : 0,
+"tokensRemaining" : 0,
+"tokensReset" : "PT0S"
+},
+"usage" : {
+"promptTokens" : 11,
+"completionTokens" : 163,
+"totalTokens" : 174,
+"cacheReadInputTokens" : 0,
+"nativeUsage" : {
+"completion_tokens" : 163,
+"prompt_tokens" : 11,
+"total_tokens" : 174,
+"completion_tokens_details" : {
+"accepted_prediction_tokens" : 0,
+"audio_tokens" : 0,
+"reasoning_tokens" : 128,
+"rejected_prediction_tokens" : 0,
+"valid" : true
+},
+"prompt_tokens_details" : {
+"audio_tokens" : 0,
+"cached_tokens" : 0,
+"valid" : true
+},
+"valid" : true
+}
+}
+},
+"result" : {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7aoRZKWnrdTRIRTk88m8aC6N3sGF",
+"reasoningContent" : ""
+},
+"text" : "Nice to meet you, Kumar. How can I help you today? Would you like me to call you Kumar from now on?",
+"toolCalls" : [ ]
+}
+},
+"results" : [ {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7aoRZKWnrdTRIRTk88m8aC6N3sGF",
+"reasoningContent" : ""
+},
+"text" : "Nice to meet you, Kumar. How can I help you today? Would you like me to call you Kumar from now on?",
+"toolCalls" : [ ]
+}
+} ]
+}
+2026-07-31T11:56:46.721+05:30 DEBUG 5892 --- [SpringAI-chat-memory] [nio-9292-exec-7] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='my name is kumar', metadata={messageType=USER, JdbcChatMemoryRepository_message_timestamp=2026-07-31T06:15:11.028760Z}, messageType=USER}, AssistantMessage [messageType=ASSISTANT, toolCalls=[], textContent=Nice to meet you, Kumar. How can I help you today? Would you like me to call you Kumar from now on?, metadata={messageType=ASSISTANT, JdbcChatMemoryRepository_message_timestamp=2026-07-31T06:15:13.712422Z}], UserMessage{content='do you know mekala, yell or kumar by any chance', metadata={messageType=USER}, messageType=USER}], modelOptions=org.springframework.ai.openai.OpenAiChatOptions@1590ea70}, context={chat_memory_conversation_id=kumar11}]
+2026-07-31T11:56:55.569+05:30 DEBUG 5892 --- [SpringAI-chat-memory] [nio-9292-exec-7] o.s.a.c.c.advisor.SimpleLoggerAdvisor    : response: {
+"metadata" : {
+"empty" : false,
+"id" : "chatcmpl-E7azgeRUc7jXbK7GX8mqBcTXrcMHG",
+"model" : "gpt-5-mini-2025-08-07",
+"promptMetadata" : [ ],
+"rateLimit" : {
+"requestsLimit" : 0,
+"requestsRemaining" : 0,
+"requestsReset" : "PT0S",
+"tokensLimit" : 0,
+"tokensRemaining" : 0,
+"tokensReset" : "PT0S"
+},
+"usage" : {
+"promptTokens" : 60,
+"completionTokens" : 469,
+"totalTokens" : 529,
+"cacheReadInputTokens" : 0,
+"nativeUsage" : {
+"completion_tokens" : 469,
+"prompt_tokens" : 60,
+"total_tokens" : 529,
+"completion_tokens_details" : {
+"accepted_prediction_tokens" : 0,
+"audio_tokens" : 0,
+"reasoning_tokens" : 320,
+"rejected_prediction_tokens" : 0,
+"valid" : true
+},
+"prompt_tokens_details" : {
+"audio_tokens" : 0,
+"cached_tokens" : 0,
+"valid" : true
+},
+"valid" : true
+}
+}
+},
+"result" : {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7azgeRUc7jXbK7GX8mqBcTXrcMHG",
+"reasoningContent" : ""
+},
+"text" : "I don�t personally know people � I don�t have memories of private individuals or access to personal data. I do remember you told me your name is Kumar.\n\nIf you mean public figures named Mekala, Yell, or Kumar, I can try to provide information about them (up to my knowledge cutoff in June 2024) if you give more detail � full name, profession, country, or where you heard the name. If you mean someone you know in real life, I can�t identify them, but I can help with things like drafting a message to reconnect, searching public sources (you�d need to run the search yourself), or suggesting places to look. Which do you mean?",
+"toolCalls" : [ ]
+}
+},
+"results" : [ {
+"metadata" : {
+"contentFilters" : [ ],
+"empty" : true,
+"finishReason" : "STOP"
+},
+"output" : {
+"media" : [ ],
+"messageType" : "ASSISTANT",
+"metadata" : {
+"role" : "assistant",
+"messageType" : "ASSISTANT",
+"refusal" : "",
+"finishReason" : "STOP",
+"index" : 0,
+"annotations" : [ ],
+"id" : "chatcmpl-E7azgeRUc7jXbK7GX8mqBcTXrcMHG",
+"reasoningContent" : ""
+},
+"text" : "I don�t personally know people � I don�t have memories of private individuals or access to personal data. I do remember you told me your name is Kumar.\n\nIf you mean public figures named Mekala, Yell, or Kumar, I can try to provide information about them (up to my knowledge cutoff in June 2024) if you give more detail � full name, profession, country, or where you heard the name. If you mean someone you know in real life, I can�t identify them, but I can help with things like drafting a message to reconnect, searching public sources (you�d need to run the search yourself), or suggesting places to look. Which do you mean?",
+"toolCalls" : [ ]
+}
+} ]
+}
